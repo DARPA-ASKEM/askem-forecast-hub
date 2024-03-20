@@ -28,9 +28,9 @@ jobs:
           # NOTE: Using direct target names instead of group names as its a single
           # image build and want to use the target as part of the output image tag
           if [[ '${{ github.event_name }}' == 'pull_request' ]]; then
-            TGT=askem-julia-base
+            TGT=askem-forecast-hub-base
           else
-            TGT=askem-julia
+            TGT=askem-forecast-hub
           fi
 
           echo "$TGT"
