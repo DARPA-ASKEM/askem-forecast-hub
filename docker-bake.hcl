@@ -5,7 +5,7 @@ variable "DOCKER_ORG" {
   default = "darpa-askem"
 }
 variable "VERSION" {
-  default = "local"
+  default = "latest"
 }
 
 # ----------------------------------------------------------------------------------------------------------------------
